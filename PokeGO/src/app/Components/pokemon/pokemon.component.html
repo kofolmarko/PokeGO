@@ -1,0 +1,9 @@
+<h1>List of all pokemon</h1>
+
+<h3>Test the service here: <button (click)="testLog()">Log the service</button></h3>
+
+<button (click)="getAllPokemon()">Get all pokemon</button>
+
+<ul>
+    <li *ngFor="let pokemon of pokemonList">{{ pokemon.name }}</li>
+</ul>
